@@ -6,13 +6,27 @@
 
 body {
     font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    background-color: linen;
+    line-height: 2;
+    color: rgb(141, 21, 165);
+    background-color: white;
+}
+
+.Logo {
+    font-size: x-large;
 }
 
 ul {
     list-style-type: none;
+}
+
+.dark-mode {
+    background-color: gray;
+    color: rgb(24, 21, 21);
+}
+
+.mainmenu {
+    background-color: black;
+    height: 60px;
 }
 
 .container {
@@ -21,52 +35,25 @@ ul {
     padding: 0 30px;
 }
 
-.navbar {
-    background-color: black;
-    color: white;
-    height: 60px;
-}
-
-.navbar .container {
+.mainmenu .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding: 30px;
 }
 
-.navbar ul {
+.mainmenu ul {
     display: flex;
     flex-direction: row;
 }
 
-.navbar ul li {
+.mainmenu ul li {
     margin-left: 20px;
 }
 
-.navbar .logo {
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.navbar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    border-bottom: 2px #fff solid;
-    color: #ddd;
-}
-
-.main {
-    color: blue;
-    line-height: 2;
-}
-
-button {
+.main .container button {
     padding: 2px 6px;
     margin: 2px 4px;
     font-size: larger;
@@ -76,7 +63,7 @@ button {
     border-width: 1px;
 }
 
-button:hover {
-    color: white;
-    background-color: chocolate;
+.main .container button:hover {
+    color: red;
+    background-color: darkgoldenrod;
 }

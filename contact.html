@@ -3,44 +3,54 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>웹프로그래밍 데모</title>
-        <link rel="stylesheet" href="style.css" />
+        <title>Web site</title>
+        <script src="main.js"></script>
     </head>
+    <link rel="stylesheet" href="style.css" />
     <body>
-        <!-- 메뉴 -->
-        <nav class="navbar">
+        <!-- 메인메뉴 -->
+        <nav class="mainmenu">
             <div class="container">
-                <div class="logo">WebDemo</div>
+                <div class="Logo"><a href="index.html">Web Programming</a></div>
                 <ul class="nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="about.html"> about </a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="contact.html"> contact </a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="form.html"> Form </a>
+                    </li>
+                    <!--다크모드 토글 스위치-->
+                    <li>
+                        <button id="dark-mode" onclick="Darkmode()">
+                            다크모드/라이트모드
+                        </button>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <!-- 메인 섹션  -->
         <section class="main">
             <div class="container">
                 <h1>Contact</h1>
 
-                <h3>Prof. Byoungcheon Lee</h3>
+                <h3>Yoon Dohyun</h3>
 
-                <p>전화: 010-0000-0000</p>
+                <p>전화번호 : 010-3314-5820</p>
+                <br />
                 <p>
-                    홈페이지:
-                    <a href="http://cris.joongbu.ac.kr ">cris.joongbu.ac.kr </a>
+                    포토폴리오 홈페이지 :
+                    <a
+                        href="https://www.notion.so/e6e333606143450fa93a3253d1373688?pvs=4"
+                    >
+                        Notions
+                    </a>
                 </p>
-                <p>이메일: aaa@bbb.com</p>
+
+                <p>이메일 : soojooo123@naver.com</p>
             </div>
         </section>
-
-        <script src="main.js"></script>
     </body>
 </html>
