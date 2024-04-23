@@ -1,69 +1,106 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
-    font-size: 16px;
-    line-height: 2;
-    color: rgb(141, 21, 165);
-    background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
-.Logo {
-    font-size: x-large;
+.highlight {
+    color: orangered;
+    margin: 0;
+    padding: 0;
 }
 
-ul {
-    list-style-type: none;
-}
-
-.dark-mode {
-    background-color: gray;
-    color: rgb(24, 21, 21);
-}
-
-.mainmenu {
-    background-color: black;
-    height: 60px;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 30px;
-}
-
-.mainmenu .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    padding: 30px;
-}
-
-.mainmenu ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.mainmenu ul li {
+.dark {
+    padding: 15px;
+    background-color: #35424a;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
     margin-left: 20px;
 }
 
-.main .container button {
-    padding: 2px 6px;
-    margin: 2px 4px;
-    font-size: larger;
-    font-weight: bolder;
-    background-color: aquamarine;
-    border-radius: 5px;
-    border-width: 1px;
+.main header {
+    border-bottom: #e8491d 3px solid;
 }
 
-.main .container button:hover {
-    color: red;
-    background-color: darkgoldenrod;
+header .navbar {
+    padding: 20px;
+}
+
+#logocolor {
+    color: coral;
+}
+
+header a:hover {
+    color: #aaaaaa;
+    font-weight: bold;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    aside#sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+#showcase {
+    min-height: 400px;
+    background: url("img/컴퓨터_프로그래밍_언어.jpg");
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* 팀프로젝트 스타일시트 */
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.team-container > div {
+    background-color: #f1f1f1;
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* about.html 스타일시트*/
+
+.about_container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#about {
+    border-bottom: deepskyblue 3px solid;
+}
+
+.about-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom: deepskyblue 3px solid;
 }
