@@ -42,6 +42,18 @@ aside#sidebar {
     margin-top: 20px;
 }
 
+.container {
+    margin-top: 40px;
+}
+
+#html img {
+    width: 250px;
+}
+
+#css img {
+    width: 170px;
+}
+
 @media (max-width: 768px) {
     aside#sidebar {
         float: none;
@@ -64,6 +76,27 @@ aside#sidebar {
 
 #showcase p {
     font-size: 20px;
+}
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    color: white;
+    background-color: #35424a;
 }
 
 /* 팀프로젝트 스타일시트 */
@@ -103,4 +136,45 @@ p {
     padding: 20px;
     background-color: #f9f9f9;
     border-bottom: deepskyblue 3px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    border: 10px;
+    padding: 8px;
+    text-align: left;
+    margin: 5px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Main-col */
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+/* Service */
+ul#service li {
+    list-style: none;
+    padding: 20px;
+    border: #ccccccd6 solid 2px;
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+}
+
+#porais {
+    width: 400px;
+}
+
+#AI {
+    width: 600px;
 }
